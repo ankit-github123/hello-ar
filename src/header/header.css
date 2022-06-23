@@ -1,0 +1,51 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+.header_logo_container {
+    display: flex;
+}
+.header_logo {
+    height: 40px;
+    margin-right: 5px;
+}
+.right_border {
+    border-right: 2px solid grey;
+}
+.HeaderDescription_container {
+    margin: auto;
+    padding-left: 10px;
+    font-size: 21px;
+    opacity: 0.55;
+    font-weight: 600;
+    cursor: pointer;
+}
+.border_right_desc {
+    border-right: 2px solid grey;
+    position: relative;
+    margin-left: 100px;
+}
+.header_user {
+    height: 40px;
+    border-radius: 30px;
+    width: 40px;
+}
+.headerUser_container {
+    margin: auto;
+    padding-left: 10px;
+    font-size: 21px;
+    opacity: 0.55;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+.arrow_down {
+    position: relative;
+    bottom: 10px;
+}
+.user_main {
+    margin-right: 33px;
+}

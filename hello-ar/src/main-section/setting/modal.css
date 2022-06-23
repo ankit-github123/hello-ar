@@ -1,0 +1,67 @@
+.modal_table {
+    position: absolute;
+}
+.modal_container {
+    display: flex;
+    /* height: 30vh; */
+}
+.modal_left {
+    background-color: #f38181;
+    width: 40%;
+}
+.modal_left p {
+    padding: 10px;
+    text-align: justify;
+    color: white;
+}
+.react-responsive-modal-modal  {
+    padding: 0;
+    position: absolute;
+    top:10vh;
+    left:20%;
+}
+.modal_right{
+    margin-left: 22px;
+}
+.modal_right h2 {
+    margin: 15px 0 35px;
+    opacity: 0.75;
+    background-color: white;
+}
+.email_input {
+    padding: 6px 10px;
+    width: 140%;
+    border-radius: 6px;
+    /* outline: none; */
+    border: 1px solid rgba(0, 0, 0, .15);
+
+}
+.email_container {
+    margin: 30px 0;
+}
+.select_option {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.button_holder {
+    bottom: 18px;
+    position: absolute;
+    right: 30px;
+    display: flex;
+}
+.button_common {
+    cursor: pointer;
+    padding: 6px 40px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    outline: none !important;
+    border-radius: 3px;
+
+}
+.button_common:hover {
+    opacity: 0.7;
+}
